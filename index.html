@@ -22,16 +22,13 @@
 
   }
 
-    p {
-      font-size: 1.2rem;
-      color: var(--uofuRed);
-    }
-
     .photo-gallery {
-    display: flex;
-    gap: 2rem; /* space between photos */
-    justify-content: center;
-    flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 2rem; /* space between grid items */
+  justify-items: center;
+  margin-top: 2rem;
+
   }
 
   .photo-gallery figure {
