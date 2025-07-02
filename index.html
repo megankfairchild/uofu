@@ -14,9 +14,6 @@
 
     body {
       background-color: #E2E6E6;
-      color: #000000;
-      font-family: 'Myriad Pro', sans-serif;
-      margin: 0;
       padding: 2rem;
     }
   h1 {   
@@ -29,6 +26,30 @@
       font-size: 1.2rem;
       color: var(--uofuRed);
     }
+
+    .photo-gallery {
+    display: flex;
+    gap: 2rem; /* space between photos */
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .photo-gallery figure {
+    text-align: center;
+    margin: 0;
+  }
+
+  .photo-gallery img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+
+  .photo-gallery figcaption {
+    font-size: 1rem;
+    color: #000000;
+  }
   </style>
 
 </head>
@@ -39,5 +60,23 @@
   <h1>Hello World!</h1>
   <p>Welcome <br /> 
   This is a test </p>
+
+
+
+<div class="photo-gallery">
+  <figure>
+    <img id="181259854" src="/courses/1192673/files/181259854/preview" alt="swoop1.png" />
+    <figcaption>Swoop 1</figcaption>
+  </figure>
+  <figure>
+    <img id="181259853" src="/courses/1192673/files/181259853/preview" alt="swoop2.png" />
+    <figcaption>Swoop 2</figcaption>
+  </figure>
+  <figure>
+    <img id="181259855" src="/courses/1192673/files/181259855/preview" alt="swoop3.jpg" />
+    <figcaption>Swoop 3</figcaption>
+  </figure>
+</div>
+
 </body>
 </html>
