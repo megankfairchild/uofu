@@ -22,25 +22,25 @@
 
   }
 
-    .photo-gallery {
+.photo-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
   gap: 2rem; /* space between grid items */
-  justify-items: center;
   margin-top: 2rem;
 
   }
 
   .photo-gallery figure {
-    text-align: center;
     margin: 0;
   }
 
   .photo-gallery img {
-    max-width: 200px;
+    max-width: 100%;
     height: auto;
     display: block;
     margin-bottom: 0.5rem;
+    border: 2px solid var(--uofuRed);
+    border-radius: 8px;
   }
 
   .photo-gallery figcaption {
