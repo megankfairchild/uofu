@@ -327,13 +327,13 @@ p{
 		}
 		
 .background-box {
-  width: 50%; /* Prevents cutting off */
-  max-width: 500px; /* Limits maximum width */
+  width: 40%; /* Prevents cutting off */
+  max-width: 400px; /* Limits maximum width */
   margin: 10px auto; /* Centers the box */
   padding: 10px;
   text-align: center;
   background-color: rgba(112, 142, 153, 1);
-  border-radius: 10px;
+  border-radius: 5px;
 } 
 
 .converter-container {
@@ -341,7 +341,7 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 50px; /* Add space between the two converters */
+  gap: 30px; /* Add space between the two converters */
   margin-top: 30px;
   flex-wrap: wrap; /* Optional: allows wrapping on smaller screens */
 }
