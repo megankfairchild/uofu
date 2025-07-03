@@ -54,7 +54,7 @@
 	body, input, select, textarea {
       display: block;
       align-items: center;
-		color: #ffffff;
+		color: #000000;
 		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 400;
 		font-size: 1rem;
@@ -89,7 +89,7 @@
 	h3 {
 	margin-top: 15px;
 		font-size: 1rem;
-		color: #8e93d4;
+		color: #000000;
 	}
 
 	h4 {
@@ -353,6 +353,7 @@
   justify-content: center;
   gap: 50px; /* Add space between the two converters */
   margin-top: 30px;
+  flex-wrap: wrap; /* Optional: allows wrapping on smaller screens */
 }
 
 /* Header */
