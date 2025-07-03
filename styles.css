@@ -306,34 +306,9 @@ p{
 
 /* Header */
 
-	#header {
-		padding: 8em 0 0.1em 0 ;
+#header {
+	padding: 8em 0 0.1em 0 ;
+	color: #708e99;
 	}
 
-		#header .logo {
-			display: block;
-			border-bottom: 0;
-			color: #708e99;
-			font-weight: 900;
-			letter-spacing: 0.35em;
-			margin: 0 0 2.5em 0;
-			text-decoration: none;
-			text-transform: uppercase;
-			display: inline-block;
-		}
-
-			#header .logo > * {
-				display: inline-block;
-				vertical-align: middle;
-			}
-
-			#header .logo .symbol {
-				margin-right: 0.65em;
-			}
-
-				#header .logo .symbol img {
-					display: block;
-					width: 2em;
-					height: 2em;
-				}
  
