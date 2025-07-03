@@ -342,8 +342,8 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 30px; /* Add space between the two converters */
-  margin-top: 30px;
+  gap: 15px; /* Add space between the two converters */
+  margin-top: 10px;
   flex-wrap: wrap; /* Optional: allows wrapping on smaller screens */
 }
 
