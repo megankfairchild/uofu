@@ -146,28 +146,6 @@ p{
 }
 
 
-
-#animation-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: end;
-  gap: 1rem;
-  margin-block-end: 1rem;
-  min-height: 40vh;
-  border: 2px dashed var(--orange);
-  padding: 1rem;
-}
-
-.animation-frame {
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
-    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
-    sans-serif;
-  padding: 15px 10px;
-  border: 5px solid var(--orange);
-  font-size: 1.2rem;
-  text-align: center;
-}
-
 @media screen and (min-width: 36em) {
   body {
     font-size: 1rem;
@@ -331,7 +309,7 @@ p{
   width: 10%; /* Prevents cutting off */
   max-width: 400px; /* Limits maximum width */
   margin: 10px auto; /* Centers the box */
-  padding: 10px;
+  /*padding: 10px;*/
   text-align: center;
   background-color: rgba(112, 142, 153, 1);
   border-radius: 5px;
