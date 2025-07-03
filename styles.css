@@ -348,7 +348,7 @@
 
 .converter-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 50px; /* Add space between the two converters */
