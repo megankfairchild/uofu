@@ -306,13 +306,17 @@ p{
 		}
 		
 .background-box {
-  width: 10%; /* Prevents cutting off */
-  max-width: 400px; /* Limits maximum width */
-  margin: 10px auto; /* Centers the box */
-  /*padding: 10px;*/
+/*  width: 10%; Prevents cutting off */
+ /* max-width: 400px;  Limits maximum width
+	border-radius: 5px;
+  margin: 10px auto;  Centers the box 
+  padding: 10px;*/
   text-align: center;
-  background-color: rgba(112, 142, 153, 1);
-  border-radius: 5px;
+  background-color: rgba(112, 142, 153, 1);	
+  flex: 1 1 250px;
+  max-width: 300px;
+
+  
 } 
 
 .converter-container {
