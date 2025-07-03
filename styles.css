@@ -109,11 +109,13 @@ p{
 .input-container {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  /*gap: 10px;*/
   justify-content: center;
   align-items: center;
-  width: clamp(320px, 50vw, 460px);
-  margin: 10px auto;
+  width: auto;
+  max-width: 30px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 .input-container label {
@@ -228,8 +230,8 @@ p{
 			}
 
 		.image.main {
-			display: block;
-			margin: 2.5rem 0;
+			/*display: block;*/
+			margin: 1rem 0;
 			width: 100%;
 		}
 
