@@ -192,19 +192,6 @@ p{
 		position: relative;
 	}
 
-		.image:before {
-			pointer-events: none;
-			background-color: rgba(226, 230, 230, 1); /* might change the IMAGE border color. note sure. */
-			border-radius: 4px;
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0.5;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
 
 		.image img {
 			border-radius: 4px;
