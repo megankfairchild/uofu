@@ -138,7 +138,11 @@ p{
   cursor: pointer;
 }
 
-
+  .input-container {
+   margin-left: 50px;
+    flex-direction: row;
+    width: unset;
+  }
 /* Image */
 
 	.image {
