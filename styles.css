@@ -112,10 +112,9 @@ p{
   /*gap: 10px;*/
   justify-content: center;
   align-items: center;
-  width: auto;
-  max-width: 30px;
-  margin: 0 auto;
-  padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
 }
 
 .input-container label {
@@ -138,11 +137,7 @@ p{
   cursor: pointer;
 }
 
-  .input-container {
-   margin-left: 50px;
-    flex-direction: row;
-    width: unset;
-  }
+
 /* Image */
 
 	.image {
@@ -294,6 +289,7 @@ p{
   background-color: rgba(112, 142, 153, 1);	
   flex: 1 1 250px;
   max-width: 500px;
+	padding: 10px;
 
   
 } 
