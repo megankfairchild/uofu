@@ -328,7 +328,7 @@ p{
 		}
 		
 .background-box {
-  width: 40%; /* Prevents cutting off */
+  width: 10%; /* Prevents cutting off */
   max-width: 400px; /* Limits maximum width */
   margin: 10px auto; /* Centers the box */
   padding: 10px;
