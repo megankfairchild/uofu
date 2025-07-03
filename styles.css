@@ -242,7 +242,6 @@ p{
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 0.5s;
 			transition-delay: 0.5s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("images/background.jpg");
 			background-size: cover;
 			background-position: center,
  center;
@@ -260,7 +259,6 @@ p{
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("images/background.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -291,7 +289,7 @@ p{
   text-align: center;
   background-color: rgba(112, 142, 153, 1);	
   flex: 1 1 250px;
-  max-width: 300px;
+  max-width: 500px;
 
   
 } 
@@ -301,7 +299,7 @@ p{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 50px; /* Add space between the two converters */
+  gap: 100px; /* Add space between the two converters */
   margin-top: 10px;
   flex-wrap: wrap; /* Optional: allows wrapping on smaller screens */
 }
@@ -315,7 +313,7 @@ p{
 		#header .logo {
 			display: block;
 			border-bottom: 0;
-			color: inherit;
+			color: #708e99;
 			font-weight: 900;
 			letter-spacing: 0.35em;
 			margin: 0 0 2.5em 0;
